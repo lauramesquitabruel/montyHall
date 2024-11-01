@@ -1,6 +1,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --area-porta-largura: 200px;
+  --area-porta-altura: 310px;
+  --margem-porta: 5px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,6 +17,8 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: #444;
+  color: #ffffff;
 }
 
 body {
